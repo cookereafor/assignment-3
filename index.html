@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Number Carrier Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Phone Number Carrier Detection</h1>
+    <div class="container">
+        <form>
+            <div>
+                <label for="firstname">Firstname:</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Enter your firstname 😎" required>
+            </div>
+            <div>
+                <label for="lastname">Lastname:</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Enter you lastname 🤠" required>
+            </div>
+            <div>
+                <label for="phoneNumber">Enter Phone Number:</label>
+                <div class="result-container">
+                    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your number 📞" required>
+                    <div id="result"></div>
+                </div>
+            </div>
+            <!-- <button type="submit">Check Carrier</button> -->
+        </form>
+    </div>
+    <div class="backdrop">
+        <div class="modal">
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
